@@ -39,5 +39,8 @@ for (let i of cards) {
 	let data = i.querySelector('.data');
 	let actions = i.querySelector('.actions');
 	i.addEventListener('mouseenter', hoverin(i, container, title, image, data, actions));
+	i.addEventListener('focusin', hoverin(i, container, title, image, data, actions));
+
 	i.addEventListener('mouseleave', hoverout(i, container, title, image, data, actions));
+	i.addEventListener('focusout', hoverout(i, container, title, image, data, actions));
 }

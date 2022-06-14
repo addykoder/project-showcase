@@ -111,7 +111,7 @@ h1 {
 	transition: 0.3s;
 
 	position: absolute;
-	filter: blur(.5rem);
+	filter: blur(2rem);
 	opacity: 0.6;
 }
 
@@ -124,8 +124,11 @@ h1 {
 	display:flex;
 	gap:1rem;
 }
+
 .technologies>img{
 	width: 1.5rem;
+	z-index: 10000;
+
 }
 .actions{
 	height: 2rem;
@@ -133,6 +136,7 @@ h1 {
 	transition: .3s;
 	display:flex;
 	gap: 1rem;
+
 
 }
 .actions[hover="true"]{
@@ -145,7 +149,8 @@ h1 {
 	transition: 0.3s;
 	
 }
-.actions img:hover{
+.actions img:hover, .action img:focus{
+	outline: none;
 	opacity: 1;
 	cursor: pointer;
 }
@@ -185,7 +190,7 @@ h1 {
 .data[hover="true"]{
 	opacity: 1;
 }
-.card:hover{
+.card:hover, .card:focus{
 	padding: 3rem 5rem 5rem 0;
 	margin:0;
 }
@@ -199,7 +204,7 @@ h1 {
 	.project-display{
 		gap: 5rem;
 	}
-	.card, .card:hover{
+	.card, .card:hover, .card:focus{
 		margin: auto;
 		padding: 3rem 0 4rem 0;
 	}
@@ -220,6 +225,12 @@ h1 {
 	}
 	.data, .data[hover="true"]{
 		opacity: 1;
+	}
+}
+
+@media (max-width:600px) {
+	.title, .title[hover="true"]{
+		font-size: 1.5rem;
 	}
 }
 
