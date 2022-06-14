@@ -102,7 +102,10 @@ h1 {
 	opacity: 0;
 	transition: 0.3s;
 }
-
+.list{
+	display:flex;
+	gap:1rem;
+}
 .technologies>img{
 	width: 1.5rem;
 }

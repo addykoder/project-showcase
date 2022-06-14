@@ -231,6 +231,7 @@ footer {
 	list-style: none;
 	padding-inline-start: 0;
 	padding-block: 0.5rem;
+	padding-top: 1.5rem;
 	gap: 1.5rem;
 }
 
@@ -238,7 +239,7 @@ footer {
 	width: 2rem;
 }
 .social-media-icon {
-	opacity: 90%;
+	opacity: 70%;
 }
 .social-media-icon:hover {
 	opacity: 100%;
@@ -249,7 +250,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space-evenly; */
-	gap: 1.5rem;
+	gap: 3rem;
 	padding-inline: 0.5rem;
 }
 
