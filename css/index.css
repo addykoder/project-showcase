@@ -164,6 +164,7 @@ h1 {
 }
 .image{
 	width: 100%;
+	aspect-ratio: 7/5;
 	z-index: 10;
 
 	transform: translateX(2rem) translateY(3rem);
