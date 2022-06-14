@@ -2,12 +2,12 @@
 let projects = [
 
 	{
-		name: 'project',
+		name: 'Project Showcase',
 		description: 'description of the project',
 		technologies: ['html', 'css', 'javascript'],
 
-		source: '#',
-		link: '#',
+		source: 'https://github.com/AddyKoder/project-showcase',
+		link: 'https://addykoder.github.io/project-showcase/',
 
 		image: 'project.jpg'
 	}
@@ -33,11 +33,11 @@ for (let i of projects) {
 					<div class="title" hover="false">
 						${i.name}
 						<div class="actions" hover="false">
-							<a href="${i.source}">
+							<a href="${i.source}" target="_blank">
 								<img src="assets/icons/github.svg" alt="github-logo"/>
 							</a>
 
-							<a href="${i.link}">
+							<a href="${i.link}" target="_blank">
 								<img src="assets/icons/link.svg" alt="github-logo" />
 							</a>
 						</div>
