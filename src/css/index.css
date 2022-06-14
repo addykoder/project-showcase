@@ -1,0 +1,256 @@
+/* basic boilerplate styling */
+
+:root {
+	--color-background: #161a2b;
+	--color-primary: #d1036f;
+	--color-secondary: #df4a1f;
+	--color-accent: #0090ca;
+	--gradient-primary: linear-gradient(91.78deg, #e7017a 2.57%, #df4a1f 96.33%);
+	--gradient-accent: linear-gradient(101.87deg, #0090ca 0%, #00bfad 105.55%), linear-gradient(180deg, #009ddc 0%, #58fcec 100%);
+	--gradient-temp: linear-gradient(91.78deg, #e7017a 2.57%, var(--color-accent) 96.33%);
+	--gradient-temp-light: linear-gradient(91.78deg, #e7017c60 2.57%, #0090ca60 96.33%);
+}
+
+body {
+	background-color: var(--color-background);
+	color: white;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+* {
+	/* box-sizing: border-box; */
+}
+
+hr {
+	width: 70%;
+	opacity: 40%;
+	border-bottom: none;
+	border-color: rgb(255, 255, 255);
+}
+
+main {
+	min-height: 50vh;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.gradient-text {
+	background-image: var(--gradient-temp);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+	font-family: cursive;
+	padding-inline: 5px;
+	border-bottom: 1px solid white;
+}
+
+.project-display {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	align-items: center;
+	justify-content: center;
+	margin: 4rem 1rem;
+}
+
+/* ---------------------------------------------------------------- */
+
+.card{
+	width: 16rem;
+	padding: 3rem 3rem 3rem 0;
+	margin: 0 2rem 2rem 0;
+}
+.title{
+	position: absolute;
+	z-index: 11;
+
+	margin: 0.5rem 2rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+	font-family: serif;
+
+	transition: 0.3s
+
+
+}
+.container{
+	width: 14rem;
+	height: 8rem;
+
+	background-image: var(--gradient-temp);
+
+	box-shadow: 0 0 50px 10px black;
+	border-radius: 1rem;
+
+	padding: 1rem;
+
+	transition: 0.3s;
+
+	position: absolute;
+	filter: blur(.5rem);
+	opacity: 0.6;
+}
+
+
+.data{
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.technologies>img{
+	width: 1.5rem;
+
+}
+.data>p{
+	font-size: .8rem;
+	opacity: 90%;
+}
+.image{
+	width: 100%;
+	z-index: 10;
+
+	transform: translateX(2rem) translateY(3rem);
+
+	transition: 0.3s
+}
+.image>img{
+	width: 100%;
+}
+
+.image[hover="true"]{
+	transform: translateX(9rem) translateY(7rem);
+	width: 60%;
+	padding: 11.2%;
+}
+.title[hover="true"]{
+	font-size: 2rem;
+	transform: translateX(-3rem) translateY(-3.5rem);
+}
+.container[hover="true"]{
+	filter: none;
+	opacity: 1;
+}
+.data[hover="true"]{
+	opacity: 1;
+}
+.card:hover{
+	cursor: pointer;
+	padding: 3rem 5rem 5rem 0;
+	margin:0;
+}
+
+
+@media (hover:none){
+	.project-display{
+		gap: 5rem;
+	}
+	.card, .card:hover{
+		margin: auto;
+		padding: 3rem 0 4rem 0;
+	}
+	.image, .image[hover="true"]{
+		transform: translateX(3rem) translateY(7rem);
+		width: 60%;
+		padding: 11.2%;
+	}
+	.title, .title[hover="true"]{
+		font-size: 2rem;
+		transform: translateX(-3rem) translateY(-3.5rem);
+	}	
+	.container, .container[hover="true"]{
+		filter: none;
+		opacity: 1;
+	}
+	.data, .data[hover="true"]{
+		opacity: 1;
+	}
+	
+}
+
+/* ---------------------------------------------------------------- */
+
+.project-card {
+	width: 16rem;
+	aspect-ratio: 7/5;
+	/* background-color: #262a3f; */
+	/* padding: 5rem; */
+}
+
+.wrapper {
+	max-width: 14rem;
+	max-height: 6rem;
+	/* aspect-ratio: 7/4; */
+	position: absolute;
+	background-image: var(--gradient-temp);
+	/* filter: blur(3rem);
+	overflow: hidden; */
+	border-radius: 1rem;
+
+	transition: 0.3s;
+
+	box-shadow: 0 0 50px 5px black;
+
+	padding: 1rem;
+}
+
+.project-image {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: 2rem;
+	top: 3rem;
+
+	transition: 0.3s;
+}
+
+.project-image[hovered='true'] {
+	top: 6rem;
+	left: 2rem;
+	/* left: 8rem; */
+}
+
+.project-image > img {
+	width: 100%;
+	height: auto;
+}
+
+.project-title {
+	margin-top: 0.5rem;
+	margin-inline: 1rem;
+	font-weight: 100;
+	font-family: serif;
+	font-size: 1.2rem;
+	position: absolute;
+	z-index: 11;
+	transition: 0.3s;
+}
+
+.wrapper[hovered='true'] {
+	max-width: 16rem;
+	max-height: 10rem;
+	/* height: 12.5rem; */
+	/* filter: blur(2.5rem); */
+
+	/* z-index: 10; */
+}
+
+.project-card:hover {
+	cursor: pointer;
+}
+
+.project-description {
+	font-size: 16px;
+	margin-top: 0.5rem;
+	opacity: 0;
+	transition: 0.3s;
+}
+
+.project-description[hovered='true'] {
+	opacity: 0.8;
+}
