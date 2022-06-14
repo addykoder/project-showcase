@@ -1,13 +1,6 @@
 let projects = [
 
-	{
-		name: 'Project Showcase',
-		description: 'Personal Website that displays the projects made by me, probably where you are reading this text.',
-		technologies: ['html', 'css', 'javascript'],
-		source: 'https://github.com/AddyKoder/project-showcase',
-		link: 'https://addykoder.github.io/project-showcase/',
-		image: 'showcase.jpg',
-	},
+
 
 	{
 		name: 'Personal Website',
@@ -20,7 +13,14 @@ let projects = [
 		image: 'personal.jpg',
 	},
 
-
+	{
+		name: 'Project Showcase',
+		description: 'Personal Website that displays the projects made by me, probably where you are reading this text.',
+		technologies: ['html', 'css', 'javascript'],
+		source: 'https://github.com/AddyKoder/project-showcase',
+		link: 'https://addykoder.github.io/project-showcase/',
+		image: 'showcase.jpg',
+	},
 
 	{
 		name: 'Blog Page',
@@ -34,17 +34,6 @@ let projects = [
 	},
 
 	{
-		name: 'Magic Notes',
-		description: 'First Full-Stack Web app made by me where the users can create, read , update and delete their notes. Includes user login.',
-		technologies: ['html', 'css', 'javascript', 'node', 'mongodb'],
-
-		source: 'https://github.com/AddyKoder/MagicNotes-Express',
-		link: 'https://magicnotes-express.herokuapp.com/',
-
-		image: 'magicnotes.jpg',
-	},
-
-	{
 		name: 'Posty',
 		description: 'A Full-Stack Web app in which the user can create and modify thier post and also see their feeds of other users post',
 		technologies: ['html', 'css', 'javascript', 'node', 'mongodb'],
@@ -53,6 +42,19 @@ let projects = [
 		link: 'https://posty-addykoder.herokuapp.com/',
 
 		image: 'posty.jpg',
+	},
+
+
+
+	{
+		name: 'Magic Notes',
+		description: 'First Full-Stack Web app made by me where the users can create, read , update and delete their notes. Includes user login.',
+		technologies: ['html', 'css', 'javascript', 'node', 'mongodb'],
+
+		source: 'https://github.com/AddyKoder/MagicNotes-Express',
+		link: 'https://magicnotes-express.herokuapp.com/',
+
+		image: 'magicnotes.jpg',
 	},
 
 

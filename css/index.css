@@ -164,7 +164,8 @@ h1 {
 }
 .image{
 	width: 100%;
-	aspect-ratio: 7/5;
+	aspect-ratio: 350/197;
+
 	z-index: 10;
 
 	transform: translateX(2rem) translateY(3rem);
@@ -172,6 +173,8 @@ h1 {
 	transition: 0.3s
 }
 .image>img{
+	aspect-ratio: 350/197;
+
 	width: 100%;
 }
 
