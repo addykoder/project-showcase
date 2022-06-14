@@ -172,7 +172,7 @@ h1 {
 .image[hover="true"]{
 	transform: translateX(9rem) translateY(7rem);
 	width: 60%;
-	padding: 11.2%;
+	padding: 11.1%;
 }
 .title[hover="true"]{
 	font-size: 2rem;
