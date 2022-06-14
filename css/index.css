@@ -22,6 +22,18 @@ body {
 	/* box-sizing: border-box; */
 }
 
+.em{
+	font-family: cursive;
+	margin-inline: 0.2rem;
+	border-bottom: 1px solid white;
+}
+
+.logo-footer{
+	margin-inline: 0.2rem;
+	border-bottom: 1px solid white;
+	font-family: serif;
+}
+
 hr {
 	width: 70%;
 	opacity: 40%;
@@ -75,13 +87,19 @@ h1 {
 	font-weight: 100;
 	font-family: serif;
 
-	transition: 0.3s
+	transition: 0.3s;
 
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	width: max-content;
 
 }
 .container{
 	width: 14rem;
-	height: 8rem;
+
+	min-height: 8rem;
+
 
 	background-image: var(--gradient-temp);
 
@@ -109,10 +127,35 @@ h1 {
 .technologies>img{
 	width: 1.5rem;
 }
+.actions{
+	height: 2rem;
+	opacity:0;
+	transition: .3s;
+	display:flex;
+	gap: 1rem;
 
+}
+.actions[hover="true"]{
+	opacity: 1;
+}
+.actions img{
+	width: 2rem;
+	height: 2rem;
+	opacity: .6;
+	transition: 0.3s;
+	
+}
+.actions img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+.list+.list{
+	margin-top: 0.5rem;
+}
 .data>p{
 	font-size: .8rem;
 	opacity: 90%;
+	line-height: 1.1rem;
 }
 .image{
 	width: 100%;
@@ -143,13 +186,16 @@ h1 {
 	opacity: 1;
 }
 .card:hover{
-	cursor: pointer;
 	padding: 3rem 5rem 5rem 0;
 	margin:0;
 }
 
 
 @media (hover:none), (max-width:600px){
+
+	.actions, .actions[hover="true"]{
+		opacity: 1;
+	}
 	.project-display{
 		gap: 5rem;
 	}
@@ -158,13 +204,15 @@ h1 {
 		padding: 3rem 0 4rem 0;
 	}
 	.image, .image[hover="true"]{
-		transform: translateX(3rem) translateY(7rem);
-		width: 60%;
+		transform: translateX(4rem) translateY(7rem);
+		width: 70%;
 		padding: 11.2%;
 	}
 	.title, .title[hover="true"]{
 		font-size: 2rem;
-		transform: translateX(-3rem) translateY(-3.5rem);
+		transform: translateX(-4rem) translateY(-3.5rem);
+		gap: 2rem;
+
 	}	
 	.container, .container[hover="true"]{
 		filter: none;

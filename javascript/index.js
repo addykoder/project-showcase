@@ -11,20 +11,22 @@ menu_button.addEventListener('click', () => {
 	}
 });
 
-function hoverin(card, container, title, image, data) {
+function hoverin(card, container, title, image, data, actions) {
 	return () => {
 		image.setAttribute('hover', 'true');
 		title.setAttribute('hover', 'true');
 		container.setAttribute('hover', 'true');
 		data.setAttribute('hover', 'true');
+		actions.setAttribute('hover', 'true');
 	};
 }
-function hoverout(card, container, title, image, data) {
+function hoverout(card, container, title, image, data, actions) {
 	return () => {
 		image.setAttribute('hover', 'false');
 		title.setAttribute('hover', 'false');
 		container.setAttribute('hover', 'false');
 		data.setAttribute('hover', 'false');
+		actions.setAttribute('hover', 'false');
 	};
 }
 
@@ -35,6 +37,7 @@ for (let i of cards) {
 	let title = i.querySelector('.title');
 	let image = i.querySelector('.image');
 	let data = i.querySelector('.data');
-	i.addEventListener('mouseenter', hoverin(i, container, title, image, data));
-	i.addEventListener('mouseleave', hoverout(i, container, title, image, data));
+	let actions = i.querySelector('.actions');
+	i.addEventListener('mouseenter', hoverin(i, container, title, image, data, actions));
+	i.addEventListener('mouseleave', hoverout(i, container, title, image, data, actions));
 }

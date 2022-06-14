@@ -22,11 +22,22 @@ nav[visible='true'] {
 	align-items: center;
 }
 
-.logo {
+.logo{
+	margin-inline: auto; 
+}
+
+.logo >h1{
 	width: fit-content;
-	margin-inline: auto;
 	font-family: serif;
 	font-size: 1.5rem;
+	margin-block:0;
+}
+.logo a{
+	text-decoration: none;
+	color: inherit;
+}
+.logo:hover{
+	cursor: pointer;
 }
 
 #menu-icon {
@@ -239,7 +250,8 @@ footer {
 	width: 2rem;
 }
 .social-media-icon {
-	opacity: 70%;
+	opacity: 60%;
+	transition: 0.3s;
 }
 .social-media-icon:hover {
 	opacity: 100%;
