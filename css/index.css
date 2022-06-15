@@ -18,9 +18,7 @@ body {
 	font-family: sans-serif;
 }
 
-* {
-	/* box-sizing: border-box; */
-}
+
 
 .em{
 	font-family: cursive;
@@ -164,7 +162,6 @@ h1 {
 }
 .image{
 	width: 100%;
-	aspect-ratio: 350/197;
 
 	z-index: 10;
 
@@ -173,7 +170,7 @@ h1 {
 	transition: 0.3s
 }
 .image>img{
-	aspect-ratio: 350/197;
+	/* aspect-ratio: 350/197; */
 
 	width: 100%;
 }
@@ -242,7 +239,8 @@ h1 {
 
 .project-card {
 	width: 16rem;
-	aspect-ratio: 7/5;
+	aspect-ratio: 7/5 !important;
+	box-sizing: border-box;
 	/* background-color: #262a3f; */
 	/* padding: 5rem; */
 }
