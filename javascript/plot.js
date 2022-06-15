@@ -285,6 +285,18 @@ let projects = [
 
 		image: 'project.jpg',
 	},
+
+	{
+		name: '720p Games',
+		description: 'The Legendry set of 5 old games that were my first graphical achievement. 5 games were made in 5 days with pygame.. 720x1280 screens only',
+		technologies: ['python'],
+
+		source: 'https://github.com/AddyKoder/Python_MobileGame_720p',
+		link: 'https://github.com/AddyKoder/Python_MobileGame_720p',
+
+		image: 'project.jpg',
+	},
+
 ];
 
 function tech(list) {
@@ -313,7 +325,7 @@ for (let i of projects) {
 						</div>
 					</div>
 
-					<div class="container" hover="false">
+					<div class="container" hover="false" onclick="document.location.href = '${i.link}'">
 						<div class="data" hover="false">
 							<p>${i.description}</p>
 
