@@ -11,6 +11,10 @@
 	--gradient-temp-light: linear-gradient(91.78deg, #e7017c60 2.57%, #0090ca60 96.33%);
 }
 
+div.image:hover{
+	cursor:pointer;
+}
+
 body {
 	background-color: var(--color-background);
 	color: white;

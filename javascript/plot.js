@@ -334,7 +334,8 @@ for (let i of projects) {
 							</a>
 						</div>
 					</div>
-
+					
+					
 					<div class="container" hover="false" onclick="document.location.href = '${i.link}'">
 						<div class="data" hover="false">
 							<p>${i.description}</p>
@@ -345,7 +346,7 @@ for (let i of projects) {
 						</div>
 					</div>
 
-					<div class="image" hover="false">
+					<div onclick="document.location.href='${i.link}'" class="image" hover="false">
 						<img src="assets/images/${i.image}" alt="${i.name}-project-image"/>
 					</div>
 				</div>
