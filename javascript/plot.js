@@ -3,6 +3,16 @@ let projects = [
 
 
 	{
+		name: 'TO-DO in React',
+		description: 'Practice project made while learning React, simply a to-do list that saves data in your localstorage',
+		technologies: ['html', 'css', 'javascript', 'node', 'react'],
+
+		source: 'https://github.com/AddyKoder/todo-list',
+		link: 'https://addykoder.github.io/todo-list/',
+
+		image: 'todo.jpg',
+	},
+	{
 		name: 'Personal Website',
 		description: 'Simple Boilerplate personal website landing page designed and made in one day to deploy at adityatripathi.com',
 		technologies: ['html', 'css', 'javascript'],
