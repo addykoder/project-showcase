@@ -16,8 +16,32 @@ body {
 	color: white;
 	margin: 0;
 	font-family: sans-serif;
+
+	/* added later for making nav drop down overlay */
+	margin-top: 5rem;
 }
 
+header{
+	/* added later for making nav drop down overlay */
+
+	position: absolute;
+	top: 0px;
+	background-color: inherit;
+	z-index: 100000;
+	width: 100%;
+
+	box-shadow: 5px 5px 50px 50px transparent;
+	transition: box-shadow 0.3s;
+
+}
+
+header[expanded="true"] {
+	box-shadow: 5px 5px 150px 70px black;
+}
+
+header *{
+	z-index: 10000;
+}
 
 
 .em{

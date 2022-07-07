@@ -1,13 +1,17 @@
 let menu_button = document.querySelector('#menu-icon');
 let nav = document.querySelector('nav');
+let header = document.querySelector('header')
 
 menu_button.addEventListener('click', () => {
 	if (nav.getAttribute('visible') === 'false') {
 		menu_button.innerText = 'close';
 		nav.setAttribute('visible', 'true');
+		header.setAttribute('expanded', 'true')
 	} else {
 		menu_button.innerText = 'menu';
 		nav.setAttribute('visible', 'false');
+		header.setAttribute('expanded', 'false')
+
 	}
 });
 
