@@ -1,6 +1,66 @@
 let projects = [
+	{
+		name: 'Pricing section',
+		description: 'TF-22 Practice: ps only made in 40 minutes',
+		technologies: ['html', 'css'],
 
+		source: 'https://github.com/AddyKoder/pricing-section-design',
+		link: 'https://addykoder.github.io/pricing-section-design',
 
+		image: 'pricing.jpg',
+	},
+
+	{
+		name: 'Portfolio',
+		description: 'TF-22 Practice: ps only made in 40 minutes',
+		technologies: ['html', 'css'],
+
+		source: 'https://github.com/AddyKoder/modern-form',
+		link: 'https://addykoder.github.io/modern-form/index2.html',
+
+		image: 'portfoliohero.jpg',
+	},
+	{
+		name: 'Modern Form',
+		description: 'TF-22 Practice',
+		technologies: ['html', 'css'],
+
+		source: 'https://github.com/AddyKoder/modern-form',
+		link: 'https://addykoder.github.io/modern-form/',
+
+		image: 'newform.jpg',
+	},
+	{
+		name: 'Gaming Herosec',
+		description: 'TF-22 Practice',
+		technologies: ['html', 'css'],
+
+		source: 'https://github.com/AddyKoder/gaming-hero-design',
+		link: 'https://addykoder.github.io/gaming-hero-design/',
+
+		image: 'gamehero.jpg',
+	},
+	{
+		name: 'Coca Cola page',
+		description: 'TF-22 Practice',
+		technologies: ['html', 'css', 'javascript'],
+
+		source: 'https://github.com/AddyKoder/drink-hero-design',
+		link: 'https://addykoder.github.io/drink-hero-design/',
+
+		image: 'drink.jpg',
+	},
+
+	{
+		name: 'Blog Landing Page',
+		description: 'TF-22 Practice',
+		technologies: ['html', 'css'],
+
+		source: 'https://github.com/AddyKoder/blog-hero-design',
+		link: 'https://addykoder.github.io/blog-hero-design/',
+
+		image: 'bloghero.jpg',
+	},
 
 	{
 		name: 'TO-DO in React',
@@ -54,8 +114,6 @@ let projects = [
 		image: 'posty.jpg',
 	},
 
-
-
 	{
 		name: 'Magic Notes',
 		description: 'First Full-Stack Web app made by me where the users can create, read , update and delete their notes. Includes user login.',
@@ -66,8 +124,6 @@ let projects = [
 
 		image: 'magicnotes.jpg',
 	},
-
-
 
 	{
 		name: 'Zomato Clone',
@@ -90,11 +146,6 @@ let projects = [
 
 		image: 'addycart.jpg',
 	},
-
-
-	
-
-	
 
 	{
 		name: 'Library Manager',
@@ -140,8 +191,6 @@ let projects = [
 		image: 'notes.jpg',
 	},
 
-	
-
 	{
 		name: 'Navigation Bars',
 		description: 'This page contains a set of modern navigation bars with cool hover effects',
@@ -152,8 +201,6 @@ let projects = [
 
 		image: 'nav.jpg',
 	},
-
-
 
 	{
 		name: 'Old Blog Page',
@@ -176,11 +223,6 @@ let projects = [
 
 		image: 'pubg.jpg',
 	},
-	
-
-	
-
-	
 
 	{
 		name: 'Form Validation',
@@ -192,8 +234,6 @@ let projects = [
 
 		image: 'form.jpg',
 	},
-
-	
 
 	// ----------------------------------------------------------------
 
@@ -306,7 +346,6 @@ let projects = [
 
 		image: 'project.jpg',
 	},
-
 ];
 
 function tech(list) {
@@ -356,6 +395,5 @@ for (let i of projects) {
 // W A R N I N G
 // READ THIS !!!!!
 // rendering the text via javascript is causing the commutative layout shift problem. So to avoid it, take this 'content' string as console log output and copy it and pase it directly into the markup. You will have to do this everytime you will update your projects object, but you can turn this file on temporarily for development for live preview;
-
 
 document.querySelector('.project-display').innerHTML = content;
