@@ -1,4 +1,16 @@
 let projects = [
+	
+	{
+		name: 'HMS home page',
+		description: 'nope, no description in mind',
+		technologies: ['html', 'css'],
+
+		source: 'https://github.com/AddyKoder/HMS-page',
+		link: 'https://addykoder.github.io/HMS-page/',
+
+		image: 'hms.jpg',
+	},
+	
 	{
 		name: 'Pricing section',
 		description: 'TF-22 Practice: ps only made in 40 minutes',
