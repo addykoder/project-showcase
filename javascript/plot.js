@@ -1,5 +1,65 @@
 let projects = [
-	
+	{
+		name: 'SAS',
+		description: 'The main SAS - School Assistant Scheduler application backend made with mongodb, express, typescript, With extremely clean structure',
+		technologies: ['node', 'mongodb', 'typescript'],
+
+		source: 'https://github.com/AddyKoder/SAS-backend',
+		link: 'https://github.com/AddyKoder/SAS-backend',
+
+		image: 'sasserver.jpg',
+	},
+	{
+		name: 'SAS Interface',
+		description: 'Frontend for the mainframe SAS backend, provides various operations supported by sas and gives a soothing and simple design for ease of use',
+		technologies: ['css', 'react', 'typescript'],
+
+		source: 'https://github.com/AddyKoder/SAS-frontend',
+		link: 'https://addykoder.github.io/SAS-frontend/build/',
+
+		image: 'sasbend.png',
+	},
+	{
+		name: 'SAS Teachers',
+		description: 'A very simple react PWA for fetching reschedules made the sas backend which are saved to jsonbin api, and also displaying them to respective teachers',
+		technologies: ['css', 'react', 'typescript'],
+
+		source: 'https://github.com/AddyKoder/SAS',
+		link: 'https://addykoder.github.io/SAS/build/',
+
+		image: 'sasfend.png',
+	},
+	{
+		name: 'Quizzo',
+		description: 'Frontend only PWA, that can store questions in a third party api and create customised tests out of it',
+		technologies: ['css', 'react', 'javascript'],
+
+		source: 'https://github.com/AddyKoder/quiz-app-react',
+		link: 'https://addykoder.github.io/quiz-app-react/build/',
+
+		image: 'quizzo.png',
+	},
+
+	{
+		name: 'React Form',
+		description: 'Advance form made with react with input checking and notifications etc. Got tired of making forms now!',
+		technologies: ['css', 'react', 'javascript'],
+
+		source: 'https://github.com/AddyKoder/form-ui-react',
+		link: 'https://addykoder.github.io/form-ui-react-build/',
+
+		image: 'advform.png',
+	},
+	{
+		name: 'Snakes!!',
+		description: 'A semi progressive web app build with a snakes game inside it Also includes finger swipe for input, First react game ever so ofcourse has some tempting bugs! :(',
+		technologies: ['css', 'javascript', 'react'],
+
+		source: 'https://github.com/AddyKoder/snake-game-react',
+		link: 'https://addykoder.github.io/snake-game-react/build/',
+
+		image: 'snakespwa.png',
+	},
 	{
 		name: 'HMS home page',
 		description: 'nope, no description in mind',
@@ -10,7 +70,7 @@ let projects = [
 
 		image: 'hms.jpg',
 	},
-	
+
 	{
 		name: 'Pricing section',
 		description: 'TF-22 Practice: ps only made in 40 minutes',
