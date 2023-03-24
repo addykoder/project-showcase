@@ -232,8 +232,10 @@ footer {
 	display: flex;
 	margin-top: 2rem;
 	flex-direction: column;
+	justify-content: center;
 	align-items: center;
-	gap: 2rem
+	/* gap: 2rem */
+	padding-top:2rem;
 }
 
 .copyright-text {
