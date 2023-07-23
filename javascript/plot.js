@@ -1,5 +1,25 @@
 let projects = [
 	{
+		name: 'Substitutor',
+		description: 'Version 2 of the old SAS software with cutting edge features and modern interface, ready to handle any substitutions',
+		technologies: ['node', 'mongodb', 'typescript', 'react'],
+
+		source: 'https://substitutor.adityatripathi.com',
+		link: 'https://substitutor.adityatripathi.com',
+
+		image: 'sasserver.jpg',
+	},
+	{
+		name: 'Attendance Helper',
+		description: 'Helps teachers to mark attendance and generate a formatted image for their uses',
+		technologies: ['typescript', 'react', 'css'],
+
+		source: 'https://github.com/adityanative/attendance-helper',
+		link: 'https://adityanative.github.io/attendance-helper/',
+
+		image: 'sasfend.png',
+	},
+	{
 		name: 'SAS',
 		description: 'The main SAS - School Assistant Scheduler application backend made with mongodb, express, typescript, With extremely clean structure',
 		technologies: ['node', 'mongodb', 'typescript'],
