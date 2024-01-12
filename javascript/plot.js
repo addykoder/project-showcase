@@ -172,7 +172,7 @@ let projects = [
 		source: 'https://github.com/addykoder/AdityaTripathi',
 		link: 'https://adityatripathi.com',
 
-		image: 'personal.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -337,7 +337,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Tic-Tac-Toe_Sockets',
 		link: 'https://github.com/addykoder/Tic-Tac-Toe_Sockets',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -348,7 +348,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Tkinter_GUIs/tree/master/Calculator',
 		link: 'https://github.com/addykoder/Tkinter_GUIs/tree/master/Calculator',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -359,7 +359,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Tkinter_GUIs/tree/master/ChatAPP',
 		link: 'https://github.com/addykoder/Tkinter_GUIs/tree/master/ChatAPP',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -370,7 +370,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Checkers_Python',
 		link: 'https://github.com/addykoder/Checkers_Python',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -381,7 +381,7 @@ let projects = [
 		source: 'https://github.com/addykoder/ChessAI',
 		link: 'https://github.com/addykoder/ChessAI',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -392,7 +392,7 @@ let projects = [
 		source: 'https://github.com/addykoder/ChessEngine',
 		link: 'https://github.com/addykoder/ChessEngine',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -403,7 +403,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Snake_Game__Java',
 		link: 'https://github.com/addykoder/Snake_Game__Java',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -414,7 +414,7 @@ let projects = [
 		source: 'https://github.com/addykoder/DinoBot_Python',
 		link: 'https://github.com/addykoder/DinoBot_Python',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -425,7 +425,7 @@ let projects = [
 		source: 'https://github.com/addykoder/TicTacToe_withPython_AI',
 		link: 'https://github.com/addykoder/TicTacToe_withPython_AI',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 
 	{
@@ -436,7 +436,7 @@ let projects = [
 		source: 'https://github.com/addykoder/Python_MobileGame_720p',
 		link: 'https://github.com/addykoder/Python_MobileGame_720p',
 
-		image: 'project.jpg',
+		image: 'sasserver.jpg',
 	},
 ];
 
