@@ -50,7 +50,7 @@ let projects = [
 		image: 'sasfend.png',
 	},
 	{
-		name: 'TTT Online',
+		name: 'XOX Online',
 		description: 'Frontend app to let you play Tic-Tac-Toe with your partner (not online).',
 		technologies: ['html', 'css', 'javascript'],
 
