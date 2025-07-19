@@ -50,6 +50,17 @@ let projects = [
 		image: 'sasfend.png',
 	},
 	{
+		name: 'TTT Online',
+		description: 'Frontend app to let you play Tic-Tac-Toe with your partner (not online).',
+		technologies: ['html', 'css', 'javascript'],
+
+		source: 'https://github.com/addykoder/TTT',
+		link: 'https://addykoder.github.io/TTT/',
+
+		image: 'snakespwa.png',
+	},
+	
+	{
 		name: 'Quizzo',
 		description: 'Frontend only PWA, that can store questions in a third party api and create customised tests out of it',
 		technologies: ['css', 'react', 'javascript'],
